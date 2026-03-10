@@ -1,9 +1,9 @@
-# FlowZ
+# 猫盒子
 
-简洁现代的跨平台代理客户端，基于 sing-box 核心。  
+猫盒子是一款简洁现代的跨平台代理客户端，基于 sing-box 核心。  
 支持 VLESS、Trojan、Shadowsocks、Hysteria2、Anytls、TUIC、Shadows-tls 协议。  
 
-主打：
+猫盒子主打：
 
 - 配置简单
 - 规则明确
@@ -50,7 +50,7 @@
 
 ## 📥 安装
 
-从 Releases 页面下载最新版本。
+从 Releases 页面下载最新版本（文件名形如 `猫盒子-{version}-win-x64.exe`）。
 
 ### Windows
 运行 `.exe` 安装包
@@ -64,7 +64,7 @@
 若 macOS 提示“软件已损坏”：
 
 ```bash
-xattr -cr /Applications/FlowZ.app
+xattr -cr /Applications/猫盒子.app
 ```
 
 ---
@@ -72,8 +72,8 @@ xattr -cr /Applications/FlowZ.app
 ## 🛠 从源码构建
 
 ```bash
-git clone https://github.com/zhangjh/FlowZ.git
-cd FlowZ
+git clone https://github.com/zhangjh/FlowZ.git 猫盒子
+cd 猫盒子
 
 npm install
 npm run dev

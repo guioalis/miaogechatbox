@@ -519,7 +519,7 @@
     "totalTraffic": "Total:",
     "expireTime": "Expires:",
     "autoUpdate": "Auto Update",
-    "autoUpdateDesc": "When enabled, FlowZ will attempt to update subscription nodes on startup",
+    "autoUpdateDesc": "When enabled, 猫盒子 will attempt to update subscription nodes on startup",
     "cancel": "Cancel",
     "saveChange": "Save Changes",
     "addAndUpdate": "Add & Update"

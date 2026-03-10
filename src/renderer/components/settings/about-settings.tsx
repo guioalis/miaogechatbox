@@ -272,7 +272,7 @@ export function AboutSettings() {
               {t('settings.about.appVersion')}
             </h4>
             <p className="text-lg font-semibold">
-              {versionInfo?.appName || 'FlowZ'} v{versionInfo?.appVersion || '1.0.0'}
+              {versionInfo?.appName || '猫盒子'} v{versionInfo?.appVersion || '1.0.0'}
             </p>
           </div>
 
@@ -381,7 +381,7 @@ export function AboutSettings() {
           <Separator />
 
           <div className="text-xs text-muted-foreground space-y-1">
-            <p>{versionInfo?.copyright || '© 2025 FlowZ. All rights reserved.'}</p>
+            <p>{versionInfo?.copyright || '© 2025 猫盒子. All rights reserved.'}</p>
             <p>{t('settings.about.builtWith')}</p>
           </div>
         </div>
