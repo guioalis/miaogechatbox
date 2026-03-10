@@ -519,7 +519,7 @@
     "totalTraffic": "总流量:",
     "expireTime": "到期时间:",
     "autoUpdate": "自动更新",
-    "autoUpdateDesc": "开启后，FlowZ 启动时会自动尝试更新订阅节点",
+    "autoUpdateDesc": "开启后，猫盒子启动时会自动尝试更新订阅节点",
     "cancel": "取消",
     "saveChange": "保存修改",
     "addAndUpdate": "添加并更新"

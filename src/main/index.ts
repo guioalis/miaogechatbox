@@ -163,7 +163,7 @@ function createWindow() {
     height: 800,
     minWidth: 800,
     minHeight: 600,
-    title: 'FlowZ',
+    title: '猫盒子',
     icon: resourceManager.getAppIconPath(),
     show: false, // 先不显示，等待加载完成
     backgroundColor: isMac ? '#00000000' : '#1e1e2e',

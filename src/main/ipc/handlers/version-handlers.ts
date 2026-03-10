@@ -43,10 +43,10 @@ export function registerVersionHandlers(coreUpdateService?: CoreUpdateService): 
 
       return {
         appVersion: app.getVersion(),
-        appName: 'FlowZ',
+        appName: '猫盒子',
         buildDate: new Date().toISOString().split('T')[0],
         singBoxVersion: currentSingBoxVersion,
-        copyright: `© ${new Date().getFullYear()} FlowZ. All rights reserved.`,
+        copyright: `© ${new Date().getFullYear()} 猫盒子. All rights reserved.`,
         repositoryUrl: 'https://github.com/dododook/FlowZ',
       };
     }

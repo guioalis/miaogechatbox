@@ -1,6 +1,6 @@
 {
-  "appId": "com.flowz.app",
-  "productName": "FlowZ",
+  "appId": "com.maohezi.app",
+  "productName": "猫盒子",
   "copyright": "Copyright © 2025",
   "directories": {
     "output": "dist-package",
@@ -69,7 +69,7 @@
     "allowToChangeInstallationDirectory": true,
     "createDesktopShortcut": true,
     "createStartMenuShortcut": true,
-    "shortcutName": "FlowZ",
+    "shortcutName": "猫盒子",
     "installerIcon": "build/icon.ico",
     "uninstallerIcon": "build/icon.ico",
     "installerHeaderIcon": "build/icon.ico",

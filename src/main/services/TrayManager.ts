@@ -144,7 +144,7 @@ export class TrayManager implements ITrayManager {
       const icon = this.loadTrayIcon('idle');
 
       this.tray = new Tray(icon);
-      this.tray.setToolTip('FlowZ');
+      this.tray.setToolTip('猫盒子');
 
       // 设置托盘图标点击事件
       this.tray.on('click', () => {
@@ -604,9 +604,9 @@ export class TrayManager implements ITrayManager {
     if (!this.tray) return;
 
     const tooltips: Record<TrayIconState, string> = {
-      idle: 'FlowZ - 未连接',
-      connecting: 'FlowZ - 连接中...',
-      connected: 'FlowZ - 已连接',
+      idle: '猫盒子 - 未连接',
+      connecting: '猫盒子 - 连接中...',
+      connected: '猫盒子 - 已连接',
     };
 
     let tooltip = tooltips[this.currentState];
